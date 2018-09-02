@@ -1,0 +1,18 @@
+{
+    "chefs":[
+        {
+            "title":"Addicted to asparagus guy",
+            "favoriteFood":"asparagus",
+            "leastFavoriteFood": "cauilflower",
+            "rating":"2.7",
+            "worstPart":"Stinky pee"
+        },
+        {
+               "title":"Obese Guy",
+            "favoriteFood":"Anything",
+            "leastFavoriteFood": "Nothing",
+            "rating":"4.6",
+            "worstPart":"Farts"
+        }
+    ]
+}

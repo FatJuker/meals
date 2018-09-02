@@ -1,0 +1,6 @@
+extends layout
+block content
+    each chef, index in chefs
+        h3=chef.title
+        a(href=`chefs/${index}`) More info
+    

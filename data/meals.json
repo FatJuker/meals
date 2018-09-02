@@ -1,0 +1,16 @@
+{
+    "meals":[
+        {
+            "title":"Sphagetti",
+            "ingredients":"air",
+            "timeToMake": "10 minutes",
+            "rating":"0.1"
+        },
+        {
+            "title":"baloney",
+            "ingredients":"Processed lunchables meat",
+            "timeToMake": "12 hours",
+            "rating":"0.2"
+        }
+    ]
+}

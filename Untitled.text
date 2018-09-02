@@ -1,0 +1,18 @@
+specify how to make a router
+
+
+To make a route, you need to install and require express in a js file. You also need to define app and call the express function, and sometimes https. Then, you call the router function. Then, make a get request, define your new route, and make a callback function with request and response. You can then render, the data you want to send over with the second parameter of the function as an object, or another form of data. when users view something. YOu have to define the url to your main js file. THen you use app.use on them, so the app knows that it is a route you can use. You render the data to a pug file, and start up the route.
+
+
+
+
+make random generator work
+
+
+Brainstorm what the chef's page will look like
+nav
+pic
+title
+
+facts
+
