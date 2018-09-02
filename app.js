@@ -12,9 +12,7 @@ const mealRoutes = require('./routes/meals.js')
 const chefRoutes = require('./routes/chefs.js')
 
 
-/*** KEVINS COMMENTS
- * you need to import the chefs.js routes and use them look at the code for your meals routes
- ***/
+
  
 const mainRoutes = require('./routes/index.js')
 //meals
