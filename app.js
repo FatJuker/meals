@@ -8,7 +8,7 @@ app.use(cookieParser())
 app.use(bodyParser.urlencoded({extended: false}))
 const port = process.env.PORT
 
-app.use(express.static('public'))
+app.use('/static', express.static('public'))
 
 const mealRoutes = require('./routes/meals.js')
 const chefRoutes = require('./routes/chefs.js')
