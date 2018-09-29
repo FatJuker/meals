@@ -4,7 +4,8 @@ block content
         li This color is #{color}
     if username 
         p Welcome #{username}
-        form(action="/goodbye", method="post")
+        form(method="post")
+                    //action="/goodbye"
             button(type="submit") Goodbye
     else
         form(action='/login' method='post')

@@ -1,0 +1,14 @@
+extends layout
+block content
+    if username 
+        p Welcome #{title}
+        form(action="/goodbye", method="post")
+            button(type="submit") Goodbye
+    else
+        form(action='/login' method='post')
+            input(type='text' placeholder='Name' name='title')
+            input(type='text' placeholder='Favorite Food' name='favFood')
+            input(type='text' placeholder='Least Favorite Food' name='leastFavFood')
+            input(type='text' placeholder='Rating' name='rating')
+            input(type='text' placeholder='Worst Part' name='worstPart')
+            button(type='submit') Submit

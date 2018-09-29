@@ -12,6 +12,15 @@ router.get('/randumb', (req, res) => {
     res.redirect(`/chefs/${generator}`)
 })
 
+router.get('/new', (req, res) => {
+    res.render('newChef')
+})
+
+router.post('/chefs', (req, res) => {
+    
+    res.redirect('/chefs')
+})
+
 router.get('/:id', (req, res) => {
     const chefData = json.chefs[req.params.id]
     res.render('chef', chefData)
